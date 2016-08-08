@@ -3,6 +3,12 @@ function addOne(number) {
   return number;
 };
 
+function addTwo(number) {
+  number = number + 2;
+  return number;
+};
+
 module.exports = {
-  addOne: addOne
-};  
+  addOne: addOne,
+  addTwo: addTwo
+};
